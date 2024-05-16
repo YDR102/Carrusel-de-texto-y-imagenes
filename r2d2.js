@@ -16,7 +16,7 @@ const carrusel = [
         person: "Radha Platòn",
         titulo: "Anaslista de datos",
         subTitle: "Anaslista y Socia de Crecimiento",
-        img: "https://dus6dayednven.cloudfront.net/app/uploads/2021/02/SEBASTIAN-PRADO.jpg",
+        img: "https://images.pexels.com/photos/954929/pexels-photo-954929.jpeg?cs=srgb&dl=pexels-sachin-c-nair-236689-954929.jpg&fm=jpg",
         info: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
         Consequuntur quibusdam omnis suscipit dicta quas doloribus a
         minus tenetur cum explicabo aliquam ducimus, 
