@@ -33,7 +33,7 @@ const carrusel = [
         info: `Para el cielo. Puede que las palabras para expresar cuánto te amo se me escapen, 
         pero siempre trataré de compensar a través de mis actos de amor y cariño, 
         te amor eres el amor de mi vida. Eres el sol que ilumina mi vida y mi camino al cielo nunca lo olvides. 
-        Para mi ángel más dulce, de la luna que te vigila`
+        Para mi ángel más dulce, de la luna que te vigila.`
     }
 ];
 const img = document.getElementById('img')
@@ -81,11 +81,11 @@ prevBtn.addEventListener('click', function(){
 });
 
 //Random item
-//! sin acabar
-randomBtn.addEventListener('click', function(){
-    carrusel[getRandomNumber()]
-});
-
 function getRandomNumber() {
-    return Math.floor(Math.random() * hex.length);
+    return Math.floor(Math.random() * carrusel.length);;
 };
+
+randomBtn.addEventListener('click', function(){
+    currentItem = getRandomNumber();
+    showPerson()
+});
